@@ -17,8 +17,6 @@ These .bib files can be
 \usepackage[backend=biber]{biblatex}
 \addbibresource[location=remote]{"https://raw.githubusercontent.com/DigitalDynamicsLab/bibliography/master/BibFEM.bib"}
 
-% Note the "https://raw.githubusercontent.com/..." ,  it points to the *raw* version of the bib files.
-
 \begin{document}
 
 This is cited in: \cite{cosserat1909}. Good.
