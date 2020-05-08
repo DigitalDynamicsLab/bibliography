@@ -16,7 +16,7 @@ These .bib files can be
 \documentclass{article}
 
 \usepackage[backend=biber]{biblatex}
-\addbibresource[location=remote]{"https://raw.githubusercontent.com/DigitalDynamicsLab/bibliography/master/BibFEM.bib"}
+\addbibresource[location=remote]{"https://raw.githubusercontent.com/DigitalDynamicsLab/bibliography/master/refsFEM.bib"}
 
 \begin{document}
 
@@ -31,7 +31,7 @@ Note for users of OVERLEAF web-based LaTeX editor: the  `\addbibresource[locatio
 
 ```
 \usepackage[backend=biber]{biblatex}
-\addbibresource{BibMBS.bib}
-\addbibresource{BibFEM.bib}
+\addbibresource{refsMBS.bib}
+\addbibresource{refsFEM.bib}
 ...
 ```
